@@ -8,8 +8,9 @@
         "strictFunctionTypes": true,
         "sourceMap": true,
         "types": [
-            "@playwright/test"
-        ] // <- Adiciona os tipos do Playwright
+            "@playwright/test",
+            "node"
+        ] // <- Adiciona os tipos do Playwright e Node
     },
     "exclude": [
         "node_modules",

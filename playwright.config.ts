@@ -39,7 +39,8 @@ export default defineConfig({
       use: { 
         browserName: 'chromium',
         launchOptions: {
-          args: ['--incognito']
+          args: ['--incognito'],
+          slowMo: 2000,
         },
       },
     },
